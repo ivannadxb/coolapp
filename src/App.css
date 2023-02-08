@@ -1,0 +1,72 @@
+.app {
+  background-color: white;
+  min-height: 80vh; 
+  width: 400px; 
+  margin: 20px auto;
+
+}
+
+body {
+  background-color: #f2e4f9;
+}
+
+.crossed {
+  text-decoration: line-through 2px #fcd6e7;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 5px;
+  margin: 3px;;
+  color: gray;
+  border-radius: 50px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+h1 {
+  color: #71b2d6;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.add {
+background: #fcd6e7;
+margin-top: 5px;
+padding: 10px;
+border: none;
+border-radius: 50px;
+width: 70%;
+color: #71b2d6;
+font-size: 16px;
+font-family: 'Fredericka the Great', cursive;
+}
+
+.delete {
+background: #71b2d6;
+margin-bottom: 5px;
+padding: 10px;
+border: none;
+border-radius: 50px;
+width: 70%;
+color: #fcd6e7;
+font-size: 16px;
+font-family: 'Fredericka the Great', cursive;
+}
+
+input {
+  flex: 1;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 50px;
+  color: grey;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+img {
+  border-radius: 60%;
+}
